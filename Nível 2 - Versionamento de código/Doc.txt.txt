@@ -1,0 +1,16 @@
+Nem todos os módulos ou aulas terão algo para subir pro Git, nesse arquivo, vou listar alguns links que peguei em outras aulas anteriores e salvei no navegador
+
+Baixado e instalado
+- Notion > (pode ser usado online)
+- Obisidian > (pode ser usado online)
+- Git > (controle de versão)
+- Git-bash > (terminal utilizado no curso (power shel, cmd são outros exemplos citados))
+- VSCode > (editor usado no curso (um dos (se não o) mais comumente utilizados))
+- Figma > (pode ser usado online)
+
+Links uteis
+- https://www.fronteditor.dev/
+- https://www.tldraw.com/f/yA1IdAyBs1HxrDieoTN9n?d=v0.0.1652.928.ZSXW25zWwcxt8JndqQZUu
+- https://whimsical.com/everyone-in-workspace-SmavysqJUCoRYLG8Ch4wV4
+- https://developer.mozilla.org/pt-BR/
+- https://devdocs.io/
