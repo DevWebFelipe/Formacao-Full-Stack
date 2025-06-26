@@ -1,4 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
+  font-family: "Alice", sans-serif;
+  line-height: 150%;
+
   --background-color: #573824;
   --surface-color: #F0E8C2;
 
@@ -7,10 +15,59 @@
   --text-color-on-bg: #F0E8C2;
 }
 
-body * {
-  font-family: Alice, sans-serif;
+body {
+  background-image: linear-gradient(#6b412570, #573A3780), url(../img/bg-image.png);
+  background-color: --background-color;
+  
+  background-size: cover;
+}
+
+#page {
+  box-sizing: border-box;
+  width: 800px;
+  padding: 24px;
+  background-color: var(--surface-color);
+  border-radius: 24px;
+  margin: 48px auto;
+  
 }
 
 img {
-  border-radius: 16px;
+  border-radius: 16px;  
+}
+
+h1 {
+  line-height: 140%;
+  font-size: 40px;
+}
+
+main {
+  padding: 24px;
+}
+
+section + section {
+  margin-top: 24px;
+}
+
+#about p + p {
+  margin-top: 12px;
+}
+
+h2 {
+  font-size: 24px;
+
+}
+
+h1, h2 {
+  color: var(--text-color-primary);
+  margin-bottom: 4px;
+  line-height: 150%;
+}
+
+ul {
+  padding-left: 24px;
+}
+
+p {
+  color: var(--text-color-secondary)
 }
