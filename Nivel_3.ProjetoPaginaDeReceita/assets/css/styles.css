@@ -28,7 +28,7 @@ body {
   padding: 24px;
   background-color: var(--surface-color);
   border-radius: 24px;
-  margin: 48px auto;
+  margin: 48px auto 28px;
   
 }
 
@@ -70,4 +70,14 @@ ul {
 
 p {
   color: var(--text-color-secondary)
+}
+
+footer {
+  color: var(--text-color-on-bg);
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+footer img {
+  vertical-align: middle;
 }
