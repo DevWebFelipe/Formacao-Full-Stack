@@ -75,6 +75,8 @@ Nível 11 - Avançando no React.
 - Navegação.
 - Formulários em React.
 - Tailwind CSS.
+- Requisições HTTP e API
+- Deploy Front-end
 
 
 Continua...
