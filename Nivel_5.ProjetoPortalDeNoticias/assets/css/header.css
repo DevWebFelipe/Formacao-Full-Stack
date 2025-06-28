@@ -1,0 +1,27 @@
+#primary {
+  padding-block: 20px; /* aplica somente no top e no bottom */
+
+  div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  /* nesting css */ /* quando usamos um seletor dentro de outro, a ideia é pegar o filho do pai */
+  /* nesse caso em específico, estamos pegando a segunda div dentro do elemento de id primary */
+  /* nele será aplicado somente o CSS que está dentro dele */
+  div:nth-child(2) {
+    margin-inline: auto; /* aplica margin na horizontal (eixo X) automaticamente */
+  }
+
+  div:nth-child(3) {
+    justify-self: end;
+  }
+}
+
+#secondary {
+  padding-block: 14px;
+  border: solid 1px var(--stroke-color);
+  border-inline: none; /* remove a borda na horizontal */
+  justify-content: space-between;
+}
