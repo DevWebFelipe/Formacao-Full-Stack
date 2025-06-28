@@ -117,3 +117,7 @@ aside {
     object-fit: cover;
   }
 }
+
+#ads img {
+  display: block;
+}
