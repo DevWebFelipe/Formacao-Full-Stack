@@ -15,6 +15,13 @@ header .container {
   align-items: center;
 }
 
+#profile img {
+  height: 176px;
+  width: 176px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 #profile > div {
   max-width: 384px;
 }
