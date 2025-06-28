@@ -1,0 +1,46 @@
+/* Justfy = horizontal (eixo X) */
+/* Align = Vertical (eixo Y) */
+/* Place = Vertical + Horizontal (eixo X e Y) */
+
+/* Content = Mexe nos box como um todo */
+/* Items = Mexe no conteúdo dentro do box, o box em si, continua com o espaço virtualmente reservado */
+/* Self = Mexe no próprio conteúdo ao qual o seletor pertence */
+
+/* space-between = joga o primeiro conteúdo filho na extremidade esquerda do conteúdo pai, o último na extremidade direita, divide o restante com espaços iguais dentro do espaço que ficou no meio */
+/* space-around = calcula o espaço restante na vertical e horizontal e joga o mesmo espaço ao redor de todos os itens dentro da grid pai, os espaços centrais entre 2 elementos são somados, diferentemente da margin por exemplo que sobrepões um ao outro */
+/* space-evenly = parecido com space-around, mas diferentemente do space-around, não soma os espaços entre dois elementos, jogando realmente o mesmo espaço para todos os elementos da grid pai */
+/* center = centraliza o conteúdo filho dentro do conteúdo pai */
+
+/* .grid_pai .filho:nth-child(2) = Vai pegar o 2º conteúdo e caso tenha  a classe .filho nele, vai aplicar o CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grid_pai {
+  background-color: bisque;
+  padding: 30px;
+  width: 50vw;
+  height: 80vh;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 30px;
+  justify-content: space-evenly;
+  /*place-content: space-around;*/
+  /*place-items: center;*/
+}
+
+.filho {
+  background-color: brown;
+  border: solid 1px blue;
+}
+
+.grid_pai .filho:nth-child(2) {
+  align-self: end;
+  justify-self: right;
+  color: aqua;
+}
