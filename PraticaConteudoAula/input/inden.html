@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" method="post">
+      Texto <input type="text" /> <br />
+      Checkbox <input type="checkbox" /> <br />
+      Numero <input type="number" /> <br />
+      Data <input type="date" /> <br />
+      Data e hora <input type="datetime-local" /> <br />
+      Email <input type="email" /> <br />
+      Cor <input type="color" /> <br />
+      Buscar arquivo <input type="file" /> <br />
+      Mes <input type="month" /> <br />
+      Hora <input type="time" /> <br />
+      Telefone <input type="tel" /> <br />
+      Imagem <input type="image" /> <br />
+      Busca <input type="search" /> <br />
+      Radio <input type="radio" /> <br />
+      Senha <input type="password" /> <br />
+
+      Email com validação
+      <input
+        type="email"
+        name="mail"
+        pattern=".+@rocketseat\.com"
+        required
+        title="Emails apenas teste@rocketseat.com"
+      />
+      <br />
+
+      Senha com validação
+      <input
+        type="password"
+        name="senha"
+        id="pass"
+        minlength="8"
+        maxlength="12"
+        pattern="[0-9a-fA-F]{4,8}"
+        title="Apenas hexadecimal"
+      />
+      <button>Enviar</button>
+    </form>
+  </body>
+</html>
