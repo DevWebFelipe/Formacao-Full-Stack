@@ -26,8 +26,8 @@
   height: 80vh;
   margin: 30px auto;
   display: grid;
-  grid-template-columns: repeat(3, 100px);
-  grid-template-rows: repeat(3, 100px);
+  grid-template-columns: repeat(1, 100px);
+  grid-template-rows: repeat(1, 100px);
   gap: 30px;
   justify-content: space-evenly;
   /*place-content: space-around;*/
@@ -39,8 +39,3 @@
   border: solid 1px blue;
 }
 
-.grid_pai .filho:nth-child(2) {
-  align-self: end;
-  justify-self: right;
-  color: aqua;
-}
