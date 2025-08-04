@@ -15,7 +15,6 @@
 
 ## 📈 Progresso Geral
 
-
 > 🎯 Atual: Iniciando JavaScript no **Nível 05**
 
 ---
