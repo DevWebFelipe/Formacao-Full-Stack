@@ -15,9 +15,6 @@
 
 ## 📈 Progresso Geral
 
-<p align="center">
-  <img src="https://progress-bar.dev/28/?title=concluído&width=500&color=9f6ad0&suffix=%&label=Rocketseat%20FullStack" />
-</p>
 
 > 🎯 Atual: Iniciando JavaScript no **Nível 05**
 
