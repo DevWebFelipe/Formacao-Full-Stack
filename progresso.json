@@ -1,0 +1,42 @@
+{
+  "niveis": [
+    {
+      "nome": "Primeiros passos",
+      "concluido": true,
+      "quizzes": 0,
+      "desafios": 0
+    },
+    {
+      "nome": "Versionamento de código",
+      "concluido": true,
+      "quizzes": 1,
+      "quizzesFeitos": 1,
+      "desafios": 0
+    },
+    {
+      "nome": "Iniciando HTML e CSS",
+      "concluido": true,
+      "quizzes": 1,
+      "quizzesFeitos": 1,
+      "desafios": 1,
+      "desafiosEnviados": 1
+    },
+    {
+      "nome": "Avançando HTML e CSS",
+      "concluido": true,
+      "quizzes": 1,
+      "quizzesFeitos": 1,
+      "desafios": 4,
+      "desafiosEnviados": 4
+    },
+    {
+      "nome": "JavaScript",
+      "concluido": false,
+      "quizzes": 3,
+      "quizzesFeitos": 1,
+      "desafios": 3,
+      "desafiosEnviados": 0
+    }
+  ],
+  "totalNiveis": 13
+}

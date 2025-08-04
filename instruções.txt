@@ -1,0 +1,24 @@
+✅ Parte 1 — Pré-estrutura automática de progresso (base .json + script em Node.js)
+Vamos estruturar seu progresso em um arquivo .json para você atualizar facilmente. O script em Node.js lê esse arquivo e:
+  Calcula o progresso total em porcentagem
+  Conta quantos desafios foram enviados
+  Conta quantos quizzes foram feitos
+  Atualiza automaticamente:
+    A barra de progresso (https://progress-bar.dev)
+    Os badges no topo do README.md
+
+▶️ Como usar
+  Salve o progresso.json e o atualizarReadme.js no diretório do repositório.
+  No terminal:
+    npm init -y
+    node atualizarReadme.js
+
+📝 Dica: Automatizar com npm script
+No seu package.json, adicione:
+
+"scripts": {
+  "atualizar": "node atualizarReadme.js"
+}
+
+Agora você pode apenas rodar no terminal:
+npm run atualizar
