@@ -9,6 +9,7 @@
   <img src="https://img.shields.io/badge/Progresso-30%25-yellowgreen?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Desafios-7%2F25%20conclu%C3%ADdos-success?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Quizzes-5%2F11%20feitos-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Projetos-6%2F10%20feitos-orange?style=for-the-badge" />
 </p>
 
 ---
