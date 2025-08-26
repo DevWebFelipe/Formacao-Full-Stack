@@ -17,3 +17,13 @@ while (execute <= 5) {
 
   execute++
 }
+
+execute = true
+
+while (execute) {
+  let response = window.prompt("Deseja continuar: 1 (SIM) ou 2 (NÃO)")
+
+  if (resonse === "2") {
+    execute = false
+  }
+}
